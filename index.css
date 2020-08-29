@@ -1,0 +1,59 @@
+body{
+    font-family: Comic Sans MS;
+}
+
+.header{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: -0.5rem;
+    width: 100%;
+    position: fixed;
+}
+#nav-bar{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+li{
+    padding-right: 2rem;
+}
+#welcome-section{
+    text-align: center;
+    padding-top: 5rem;
+}
+#logo{
+    padding-left: 5rem;
+}
+#project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#school{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 7.5rem;
+}
+#hotel{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 7.5rem;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #1b262c;
+      color: white;
+  }
